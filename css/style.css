@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h2, h4, a, p  {
+    font-family: 'Amatic SC', cursive;
+}
+
+/* Header */
+
+.banner {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.baslik {
+    padding: 150px;
+    text-align: center;
+    font-size: xx-large;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+    font-family: 'Caveat', cursive !important;
+    line-height: 100px;
+    vertical-align: middle;
+
+}
+
+/* Nav */
+
+nav {
+    background-color: #103D50;
+}
+
+
+nav ul {
+    display: flex;
+    list-style:none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size:large;
+    padding: 20px;
+    /* margin-right: 40px; */
+    transition: ease-in-out 0.4s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Main */
+
+h2, h4{
+    margin: 0 0 20px 0;
+
+}
+
+#side {
+    flex: 4;
+}
+
+#main {
+    flex: 8;
+}
+
+.flexbox-container {
+    display:flex;
+    margin: 5px;
+}
+
+.sideImg {
+    display: flex;
+    width: 80%;
+    margin: 10px 0 30px 40px;
+    transition: ease-in-out 0.6s;
+ 
+}
+
+.sideImg:hover {
+    transform:rotate3d(0, 1, 0, 180deg);
+
+    
+}
+
+.upMain, downMain, aside {
+    margin: 0px 20px 50px 5px;
+}
+
+/* .sideDown {
+    margin-top: 20px;
+}
+
+.sideUp {
+    margin-top: 10px;
+} */
+
+
+
+/* Footer */
+
+footer {
+    margin: 100px 0;
+    background-color: #103D50;
+     color:aliceblue;
+     font-size:larger;
+     text-align: center;
+}
+
+/* Card */
+
+.card {
+    background-color: rgba(17, 59, 81,0.2);
+    box-shadow:4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
